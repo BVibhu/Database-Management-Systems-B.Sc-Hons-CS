@@ -1,0 +1,3 @@
+select e.ename, d.dname 
+    from employee as e, Department as d
+    where e.dno=d.dno and e.ename like "%a%";

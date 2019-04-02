@@ -1,0 +1,2 @@
+select eno,ename, Job_type, Hire_date 
+	from employee;

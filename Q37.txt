@@ -1,0 +1,3 @@
+select d.dno, e.ename, e.job_type 
+	from employee as e, Department as d  
+	where e.dno=d.dno and d.dname='sales';

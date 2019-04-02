@@ -1,0 +1,2 @@
+select ename, ( datediff( now(), hire_date)/30) as time_spent 
+	 from employee;

@@ -1,0 +1,11 @@
+select eno, ename     
+	from employee as e 
+	where EXISTS
+	(	select ename    
+		from employee as d     
+		where d.dno = e.dno 
+			and 
+		d.ename like '%t%' 
+			and 
+		d.ename<>e.ename
+	);

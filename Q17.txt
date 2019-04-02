@@ -1,0 +1,1 @@
+SELECT ADDDATE(date_add(hire_date, INTERVAL 6 month), INTERVAL (9-dayofweek(date_add(hire_date, INTERVAL 6 month))) DAY) as 1stMonday from employee;

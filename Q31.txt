@@ -1,0 +1,3 @@
+select count(job_type) 
+    from employee
+    where job_type='Manager';

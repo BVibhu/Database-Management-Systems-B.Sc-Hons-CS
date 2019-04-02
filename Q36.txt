@@ -1,0 +1,2 @@
+select ename, salary from employee
+    where manager= (select eno from employee where ename='king');

@@ -1,0 +1,3 @@
+select ename,job_type  
+	from employee 
+	where Job_type<>'Manager' AND manager IS NULL;

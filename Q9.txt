@@ -1,0 +1,3 @@
+select ename, hire_date 
+	from employee
+	where hire_date between '1981-01-01' and '1981-12-31';

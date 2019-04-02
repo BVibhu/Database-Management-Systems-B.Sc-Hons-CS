@@ -1,0 +1,4 @@
+select d.dname, d.location, count(*), avg(e.salary) 
+	from employee as e, Department as d 
+	where e.dno=d.dno 
+	group by d.dno;

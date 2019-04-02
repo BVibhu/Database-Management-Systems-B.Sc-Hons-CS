@@ -1,0 +1,3 @@
+select job_type,count(job_type) 
+	from employee 
+	group by job_type;

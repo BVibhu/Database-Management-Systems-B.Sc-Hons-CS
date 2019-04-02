@@ -1,0 +1,2 @@
+select ename, hire_date, dayname(hire_date) as day  
+	from employee;

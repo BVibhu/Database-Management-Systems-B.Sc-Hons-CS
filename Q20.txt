@@ -1,0 +1,4 @@
+select 
+	concat( upper(left(ename,1)) ,  lower( substring(ename, 2, length(ename)))  ) as ename,
+	if(left(ename,1)='j' or left(ename,1)='a' or left(ename, 1)='m', length(ename), 0) as len
+	from employee;

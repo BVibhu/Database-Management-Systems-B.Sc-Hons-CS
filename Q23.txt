@@ -1,0 +1,3 @@
+select distinct Job_type 
+	from employee 
+	where dno=30;

@@ -1,0 +1,3 @@
+select ename 
+	from employee 
+	where ename LIKE '__A%';

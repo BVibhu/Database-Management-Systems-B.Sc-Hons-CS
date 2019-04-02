@@ -1,0 +1,2 @@
+SELECT CONCAT(ename, ' earns ', salary, ' monthly but wants ', 3*salary) 
+	from employee;

@@ -1,0 +1,2 @@
+select DISTINCT job_type
+	from employee;

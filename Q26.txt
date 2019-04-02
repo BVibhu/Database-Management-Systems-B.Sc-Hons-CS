@@ -1,0 +1,5 @@
+select e.ename, e.eno, m.ename as manager_name, m.eno as manager_eno 
+	from employee as e 
+		left join 
+	employee as m 
+	on e.manager=m.eno ;

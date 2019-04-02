@@ -1,0 +1,3 @@
+select ename, salary 
+    from employee 
+    where salary NOT BETWEEN 1500 AND 2850;

@@ -1,0 +1,4 @@
+select concat_ws(
+		",",eno, ename, job_type, manager, hire_date, dno, commision, salary
+	)
+	as  Employee_details from employee;

@@ -1,0 +1,2 @@
+SELECT ename, REPEAT("*", salary/100) sas salary 
+	from employee;

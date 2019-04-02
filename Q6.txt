@@ -1,0 +1,3 @@
+select ename, dno 
+	from employee 
+	where eno=7500;
